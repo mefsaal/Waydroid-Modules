@@ -17,7 +17,7 @@ sudo cp waydroid.conf /etc/modules-load.d/
 sudo cp 99-waydroid.rules /lib/udev/rules.d/
 
 # Then copy the module sources to /usr/src/:
-sudo cp -rT binder /usr/src/waydroid-binder-1
+sudo cp -rT binder /usr/src/waydroid-binder
 
 # Finally use dkms to build and install:
 sudo dkms install waydroid-binder/1
